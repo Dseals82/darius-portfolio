@@ -18,34 +18,34 @@ const Navbar = ({navMenu, handleNavMenu}) => {
 
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 z-10' >
         <div>
          <h1 className='logo text-5xl font-bold'><BsCodeSlash/></h1>
         </div>
       {/* Navbar Menu */}
       <ul className='hidden md:flex'>
         <li className='pink-hover'>
-          <Link to='home' smooth={true} duration={500}>
+          <Link to='home' smooth={true} duration={500} activeClass='pink-color' spy={true}>
             Home
           </Link>
         </li>
         <li className='pink-hover'>
-          <Link to='about' smooth={true} duration={500}>
+          <Link to='about' smooth={true} duration={500} activeClass='pink-color' spy={true}>
             About
           </Link>
         </li>
         <li className='pink-hover'>
-          <Link to='skills' smooth={true} duration={500}>
+          <Link to='skills' smooth={true} duration={500} activeClass='pink-color' spy={true}>
             Skills
           </Link>
         </li>
         <li className='pink-hover'>
-          <Link to='work' smooth={true} duration={500}>
+          <Link to='work' smooth={true} duration={500} activeClass='pink-color' spy={true}>
             Work
           </Link>
         </li>
         <li className='pink-hover'>
-          <Link to='contact' smooth={true} duration={500}>
+          <Link to='contact' smooth={true} duration={500} activeClass='pink-color' spy={true}>
             Contact
           </Link>
         </li>
