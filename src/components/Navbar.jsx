@@ -11,7 +11,7 @@ import { BsCodeSlash } from 'react-icons/bs';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { Link } from 'react-scroll';
-import File from '../assets/DariusSeals-resume-2022.docx'
+import File from '../assets/darius-seals-resume.docx'
 
 const Navbar = ({navMenu, handleNavMenu}) => {
    
