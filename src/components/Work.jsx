@@ -1,7 +1,8 @@
 import React from 'react';
 import SanityStore from '../assets/sanity-store.png';
 import FireBaseStore from '../assets/firebase-store.png';
-import Hangman from '../assets/hangman.png'
+import Hangman from '../assets/hangman.png';
+import DadJokes from '../assets/dadJokes.png';
 
 const Work = () => {
   return (
@@ -89,7 +90,7 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${FireBaseStore})` }}
+            style={{ backgroundImage: `url(${DadJokes})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
@@ -98,12 +99,12 @@ const Work = () => {
                 React JS Application
               </span>
               <div className='pt-8 text-center'>
-                <a href='/'>
+                <a href='https://dad-jokes-app-seven.vercel.app/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='/'>
+                <a href='https://github.com/Dseals82/dad-jokes-app'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
