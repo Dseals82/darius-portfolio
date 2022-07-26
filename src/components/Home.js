@@ -7,7 +7,7 @@ import { Link } from 'react-scroll';
             
          
 
-const Home = () => {
+const Home = ({navMenu}) => {
   return (
     <div name='home' className='w-full h-screen bg-[#0a192f]'>
       {/* Container */}
@@ -27,7 +27,7 @@ const Home = () => {
             ]}
             wrapper="h2"
             repeat={1}
-            className='text-4xl sm:text-7xl font-bold text-[#8892b0]'
+            className={navMenu ? '-z-10' : 'text-4xl sm:text-7xl font-bold text-[#8892b0]'}
            />
         <p className='text-[#8892b0] py-4 max-w-[700px]'>
           I’m a front-end developer specializing in building and architecting exceptional digital experiences. Currently, I’m focused on

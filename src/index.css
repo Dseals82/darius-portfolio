@@ -38,3 +38,11 @@ h1.logo {
         hsla(242, 74%, 61%, 0.8)   
     )!important;
 }
+
+.pink-hover {
+    transition: all .2s ease-in;
+}
+
+.pink-hover:hover {
+  color:#db2777;  
+}

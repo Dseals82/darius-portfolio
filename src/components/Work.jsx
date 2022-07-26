@@ -29,12 +29,12 @@ const Work = () => {
                 React/Sanity Application
               </span>
               <div className='pt-8 text-center'>
-                <a href='https://sanity-ecommerce-dun.vercel.app/'>
+                <a href='https://sanity-ecommerce-dun.vercel.app/' target='_blank' rel="noreferrer" >
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='https://github.com/Dseals82/sanity_ecommerce'>
+                <a href='https://github.com/Dseals82/sanity_ecommerce' target='_blank' rel="noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -52,12 +52,12 @@ const Work = () => {
                 React/Firebase Application
               </span>
               <div className='pt-8 text-center'>
-                <a href='https://crwn-clothing-ecom.netlify.app/'>
+                <a href='https://crwn-clothing-ecom.netlify.app/' target='_blank' rel="noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='https://github.com/Dseals82/crwn-clothing'>
+                <a href='https://github.com/Dseals82/crwn-clothing' target='_blank' rel="noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -76,12 +76,12 @@ const Work = () => {
                 React JS Application
               </span>
               <div className='pt-8 text-center'>
-                <a href='https://react-hangman-eta.vercel.app/'>
+                <a href='https://react-hangman-eta.vercel.app/' target='_blank' rel="noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='https://github.com/Dseals82/react-hangman'>
+                <a href='https://github.com/Dseals82/react-hangman' target='_blank' rel="noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -99,12 +99,12 @@ const Work = () => {
                 React JS Application
               </span>
               <div className='pt-8 text-center'>
-                <a href='https://dad-jokes-app-seven.vercel.app/'>
+                <a href='https://dad-jokes-app-seven.vercel.app/' target='_blank' rel="noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='https://github.com/Dseals82/dad-jokes-app'>
+                <a href='https://github.com/Dseals82/dad-jokes-app' target='_blank' rel="noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -123,12 +123,12 @@ const Work = () => {
                 React JS Application
               </span>
               <div className='pt-8 text-center'>
-                <a href='/'>
+                <a href='/' target='_blank' rel="noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='/'>
+                <a href='/' target='_blank' rel="noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -145,13 +145,13 @@ const Work = () => {
               <span className='text-2xl font-bold text-white tracking-wider'>
                 React JS Application
               </span>
-              <div className='pt-8 text-center'>
+              <div className='pt-8 text-center' target='_blank' rel="noreferrer">
                 <a href='/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='/'>
+                <a href='/' target='_blank' rel="noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>

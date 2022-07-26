@@ -13,9 +13,8 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { Link } from 'react-scroll';
 import File from '../assets/DariusSeals-resume-2022.docx'
 
-const Navbar = () => {
-    const [navMenu, setNavMenu] = useState(false);
-    const handleNavMenu = () => setNavMenu(!navMenu);
+const Navbar = ({navMenu, handleNavMenu}) => {
+   
 
 
   return (
@@ -25,27 +24,27 @@ const Navbar = () => {
         </div>
       {/* Navbar Menu */}
       <ul className='hidden md:flex'>
-        <li>
+        <li className='pink-hover'>
           <Link to='home' smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li>
+        <li className='pink-hover'>
           <Link to='about' smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li>
+        <li className='pink-hover'>
           <Link to='skills' smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li>
+        <li className='pink-hover'>
           <Link to='work' smooth={true} duration={500}>
             Work
           </Link>
         </li>
-        <li>
+        <li className='pink-hover'>
           <Link to='contact' smooth={true} duration={500}>
             Contact
           </Link>
@@ -62,33 +61,33 @@ const Navbar = () => {
         className={
           !navMenu
             ? 'hidden'
-            : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'
+            : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center '
         }
       >
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-4xl pink-hover'>
           <Link onClick={handleNavMenu} to='home' smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-4xl pink-hover'>
           {' '}
           <Link onClick={handleNavMenu} to='about' smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-4xl pink-hover'>
           {' '}
           <Link onClick={handleNavMenu} to='skills' smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-4xl pink-hover'>
           {' '}
           <Link onClick={handleNavMenu} to='work' smooth={true} duration={500}>
             Work
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-4xl pink-hover'>
           {' '}
           <Link onClick={handleNavMenu} to='contact' smooth={true} duration={500}>
             Contact
