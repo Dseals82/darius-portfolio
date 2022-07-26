@@ -52,7 +52,7 @@ const Navbar = ({navMenu, handleNavMenu}) => {
       </ul>
 
       {/* Hamburger */}
-      <div onClick={handleNavMenu} className='md:hidden z-10'>
+      <div onClick={handleNavMenu} className='md:hidden z-10 cursor-pointer'>
         {!navMenu ? <FaBars /> : <FaTimes />}
       </div>
 
