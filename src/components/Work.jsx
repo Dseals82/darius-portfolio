@@ -3,6 +3,8 @@ import SanityStore from '../assets/sanity-store.png';
 import FireBaseStore from '../assets/firebase-store.png';
 import Hangman from '../assets/hangman.png';
 import DadJokes from '../assets/dad-jokes.png';
+import VirtualBank from '../assets/vbank.png';
+import SocialEditor from '../assets/socialEditor.png';
 
 const Work = () => {
   return (
@@ -72,8 +74,8 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
+              <span className='text-1xl font-bold text-white tracking-wider'>
+                React JS Game Application
               </span>
               <div className='pt-8 text-center'>
                 <a href='https://react-hangman-eta.vercel.app/' target='_blank' rel="noreferrer">
@@ -95,8 +97,8 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
+              <span className='text-1xl font-bold text-white tracking-wider'>
+                React JS/API Application
               </span>
               <div className='pt-8 text-center'>
                 <a href='https://dad-jokes-app-seven.vercel.app/' target='_blank' rel="noreferrer">
@@ -114,21 +116,21 @@ const Work = () => {
           </div>
             {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${FireBaseStore})` }}
+            style={{ backgroundImage: `url(${VirtualBank})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
+              <span className='text-1xl font-bold text-white tracking-wider'>
+                React JS - Styled Components
               </span>
               <div className='pt-8 text-center'>
-                <a href='/' target='_blank' rel="noreferrer">
+                <a href='https://v-bank.vercel.app/' target='_blank' rel="noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='/' target='_blank' rel="noreferrer">
+                <a href='https://github.com/Dseals82/vBank' target='_blank' rel="noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -137,21 +139,21 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${FireBaseStore})` }}
+            style={{ backgroundImage: `url(${SocialEditor})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
+              <span className='text-1xl font-bold text-white tracking-wider'>
+                HTML/CSS Responsive layout
               </span>
               <div className='pt-8 text-center' target='_blank' rel="noreferrer">
-                <a href='/'>
+                <a href='https://social-editor.vercel.app/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='/' target='_blank' rel="noreferrer">
+                <a href='https://github.com/Dseals82/socialEditor' target='_blank' rel="noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
