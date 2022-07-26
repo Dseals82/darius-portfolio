@@ -2,7 +2,7 @@ import React from 'react';
 import SanityStore from '../assets/sanity-store.png';
 import FireBaseStore from '../assets/firebase-store.png';
 import Hangman from '../assets/hangman.png';
-import DadJokes from '../assets/dadJokes.png';
+import DadJokes from '../assets/dad-jokes.png';
 
 const Work = () => {
   return (
