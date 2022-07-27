@@ -147,8 +147,8 @@ const Work = () => {
               <span className='text-1xl font-bold text-white tracking-wider'>
                 HTML/CSS Responsive layout
               </span>
-              <div className='pt-8 text-center' target='_blank' rel="noreferrer">
-                <a href='https://social-editor.vercel.app/'>
+              <div className='pt-8 text-center'>
+                <a href='https://social-editor.vercel.app/' target='_blank' rel="noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
