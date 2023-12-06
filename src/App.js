@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
@@ -11,7 +11,7 @@ function App() {
   const handleNavMenu = () => setNavMenu(!navMenu);
   return (
     <div>
-      <Navbar navMenu={navMenu} handleNavMenu={handleNavMenu}  />
+      <Navbar navMenu={navMenu} handleNavMenu={handleNavMenu} />
       <Home navMenu={navMenu} />
       <About />
       <Skills />
